@@ -1,19 +1,39 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# next14-restapis
 
+Brief description .
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Environment Setup](#environment-setup)
+- [Running the Application](#running-the-application)
+- [API Endpoints](#api-endpoints)
+
+
+## Installation
+
+1. Clone the repository:
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+npm install
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
+## Environment Setup
 
+1. Create a `.env` file in the root directory of the project.
+
+2. Add the following environment variables to the `.env` file:
+- MONGODB_URI=your_mongodb_connection_string
+* NEXTAUTH_SECRET=your_nextauth_secret
++ NEXTAUTH_URL=http://localhost:3000
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
